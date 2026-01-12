@@ -1,0 +1,9 @@
+services:
+  boda-app:
+    build:
+      context: /mnt/new/boda
+      dockerfile: /mnt/new/boda/Dockerfile
+    container_name: invitacion_pablo_lupita
+    ports:
+      - '8081:80'
+    restart: always

@@ -3,9 +3,12 @@ import './assets/css/style.css'
 
 function App() {
   // Definimos los estilos de fuentes para aplicarlos fácilmente
-  const elegantSerif = { fontFamily: "'Playfair Display', serif" };
-  const elegantCursive = { fontFamily: "'Great Vibes', cursive" };
-
+  const elegantSerif = {
+    fontFamily: "'Playfair Display', Georgia, 'Times New Roman', serif"
+  };
+  const elegantCursive = {
+    fontFamily: "'Great Vibes', 'Apple Chancery', 'Segoe Script', cursive"
+  };
   // --- LÓGICA DE LA CUENTA REGRESIVA ---
   const calculateTimeLeft = () => {
     const weddingDate = new Date('2026-06-27T18:00:00');
@@ -177,7 +180,7 @@ function App() {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-10 text-center mb-5">
-              <h5 className="text-muted" style={{ fontStyle: 'italic', lineHeight: '1.6', ...elegantSerif, fontWeight: 500, fontSize: '1.6rem'  }}>
+              <h5 className="text-muted" style={{ fontStyle: 'italic', lineHeight: '1.6', ...elegantSerif, fontWeight: 500, fontSize: '1.6rem' }}>
                 «¡Te pedimos que participes de la celebración del sacramento del matrimonio acudiendo a la misa! Es lo más importante para nosotros y, si puedes, adquiere el estado de gracia confesándote para que puedas recibir la comunión y ofrecerla por nuestro matrimonio.»
               </h5>
             </div>
@@ -215,7 +218,7 @@ function App() {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-7">
-              <p className="mb-4" style={{...elegantSerif, fontSize: '1.5rem'}}>«Su compañía es lo más importante para nosotros. Si desean tener un detalle adicional, pueden llevar un presente o ayudarnos a cumplir nuestro sueño de amueblar nuestro hogar y disfrutar de nuestro primer viaje como esposos.»</p>
+              <p className="mb-4" style={{ ...elegantSerif, fontSize: '1.5rem' }}>«Su compañía es lo más importante para nosotros. Si desean tener un detalle adicional, pueden llevar un presente o ayudarnos a cumplir nuestro sueño de amueblar nuestro hogar y disfrutar de nuestro primer viaje como esposos.»</p>
               <div className="bg-light p-4 shadow-sm" style={{ borderRadius: '15px', border: '2px solid rgb(113 74 0)' }}>
                 <p className="text-uppercase mb-1" style={{ fontSize: '1.5rem', color: '#1B3058', ...elegantSerif }}>Clabe Interbancaria</p>
                 <h3 className="font-weight-bold mb-2" style={{ color: 'rgb(113 74 0)', ...elegantSerif, fontSize: '1.9rem' }}>127180001213912334</h3>

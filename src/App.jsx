@@ -188,21 +188,21 @@ function App() {
           <div className="row">
             <div className="col-md-6 border-right" style={{ borderColor: 'rgb(113 74 0) !important' }}>
               <div className="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                <img className="img-fluid mb-4 w-75 shadow" src="https://scontent.cdninstagram.com/v/t39.30808-6/468054645_18207127681292705_8819421492670249913_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzQ1MTM0MjMxNDI3NjQxNzc4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTE2NS5zZHIuQzMifQ%3D%3D&_nc_ohc=Aei1RrGb018Q7kNvwEG3J2Z&_nc_oc=Adkg55YWBww-GWyxKoPDoASmQ6LXKnTj762QS9tG3ozqjgw52dJOYeYf2WD7H5YkIsg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=jFsB-0NKhHEvAm3cokYFsg&oh=00_Afpdnx0kMZvTRofQ4Ik6TuxsVLd0WVIvfrE7sA4phXJ7HQ&oe=69687DF7" alt="Catedral" style={{ borderRadius: '15px', height: '250px', objectFit: 'cover' }} />
+                <img className="img-fluid mb-4 w-75 shadow" src="img/catedral.jpg" alt="Catedral" style={{ borderRadius: '15px', height: '250px', objectFit: 'cover' }} />
                 <h4 className="mb-3" style={{ color: '#1B3058', fontWeight: '700', ...elegantSerif }}>La Misa</h4>
                 <p className="mb-1" style={{ fontSize: '1.3rem', color: 'rgb(113 74 0)', fontWeight: 'bold', ...elegantSerif }}>Santa Iglesia Catedral de Tehuacán</p>
                 <p className="mb-1" style={{ fontStyle: 'italic', color: '#1B3058', ...elegantSerif }}>Preside: Pbro. Gonzalo González Alvarado, msp.</p>
                 <p className="mb-0" style={elegantSerif}><strong>27 de Junio, 2026 - 6:00 PM</strong></p>
-                <a href="https://maps.app.goo.gl/TehuacanCat" target="_blank" rel="noreferrer" className="btn btn-outline-primary mt-2" style={{ borderColor: 'rgb(113 74 0)', color: 'rgb(113 74 0)', ...elegantSerif }}>Ver ubicación</a>
+                <a href="https://maps.app.goo.gl/vP91kqvgzyBTHtmNA" target="_blank" rel="noreferrer" className="btn btn-outline-primary mt-2" style={{ borderColor: 'rgb(113 74 0)', color: 'rgb(113 74 0)', ...elegantSerif }}>Ver ubicación</a>
               </div>
             </div>
             <div className="col-md-6">
               <div className="text-center text-md-left ml-md-3">
-                <img className="img-fluid mb-4 w-75 shadow" src="https://scontent.fpbc2-6.fna.fbcdn.net/v/t39.30808-6/473742960_1128153805669332_3611617680567665575_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHglipPvOAIkU0sQBU9IMJRb2QAlGNm5s1vZACUY2bmzeHW95wcUKVn6m29UUbf9AjUllsAsllSByWICQQowcjh&_nc_ohc=XYr2DlYXKVgQ7kNvwFDm5K9&_nc_oc=AdnJh9fLR_ikro3mO-lJ6K1JeZlNPcqA9mdbtar4bdcz_arQodH9HnGp54ZSdCyJikU&_nc_zt=23&_nc_ht=scontent.fpbc2-6.fna&_nc_gid=LSgsmavpAC0ck53ual8DNA&oh=00_AfroqEiFajeEsOf_Ok8qoYDyPjL6OdZGRJWohULXE277cg&oe=696860BE" alt="Salón" style={{ borderRadius: '15px', height: '250px', objectFit: 'cover' }} />
+                <img className="img-fluid mb-4 w-75 shadow" src="img/julia.jpg" alt="Salón" style={{ borderRadius: '15px', height: '250px', objectFit: 'cover' }} />
                 <h4 className="mb-3" style={{ color: '#1B3058', fontWeight: '700', ...elegantSerif }}>La Fiesta</h4>
                 <p className="mb-1" style={elegantSerif}>Rancho "Santa Julia"</p>
                 <p className="mb-0" style={elegantSerif}><strong>Después de la Eucaristía</strong></p>
-                <a href="https://maps.app.goo.gl/SantaJulia" target="_blank" rel="noreferrer" className="btn btn-outline-primary mt-2" style={{ borderColor: 'rgb(113 74 0)', color: 'rgb(113 74 0)', ...elegantSerif }}>Ver ubicación</a>
+                <a href="https://maps.app.goo.gl/PBWn4oAraUwkA8Q19" target="_blank" rel="noreferrer" className="btn btn-outline-primary mt-2" style={{ borderColor: 'rgb(113 74 0)', color: 'rgb(113 74 0)', ...elegantSerif }}>Ver ubicación</a>
               </div>
             </div>
           </div>

@@ -71,25 +71,38 @@ function App() {
               <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                   <h5 className="text-white text-uppercase mb-3" style={{ ...elegantSerif, letterSpacing: '4px', textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
-                    Tenemos el honor de invitarte
+                    Tenemos el honor de invitarte a nuestra boda
                   </h5>
                   <h1 className="display-1 text-white mb-md-4" style={{ ...elegantCursive, marginTop: '20px' }}>Pablo & Lupita</h1>
                   <div className="d-inline-block border-top border-bottom border-light py-3 px-4">
-                    <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: '2px', ...elegantSerif }}>¡Nos casaremos!</h3>
+                    <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: '2px', ...elegantSerif }}>¡Nos casamos!</h3>
                   </div>
                 </div>
+
+                {/* --- Indicador de Desplazamiento --- */}
+                <div className="position-absolute" style={{ bottom: '30px', textAlign: 'center', width: '100%' }}>
+                  <p className="text-white mb-1" style={{ ...elegantSerif, fontSize: '0.9rem', textShadow: '1px 1px 2px rgba(0,0,0,0.8)' }}>
+                    Desliza hacia abajo
+                  </p>
+                  <div className="animate-bounce">
+                    <i className="fa fa-chevron-down text-white" style={{ fontSize: '1.5rem', opacity: '0.8' }}></i>
+                  </div>
+                </div>
+                {/* ---------------------------------- */}
+
               </div>
             </div>
+            {/* El resto de los carousel-item se mantienen igual... */}
             <div className="carousel-item position-relative" style={{ height: '100vh', minHeight: '400px' }}>
               <img className="position-absolute w-100 h-100" src="img/carousel-2.jpg" style={{ objectFit: 'cover' }} alt="Carousel 2" />
               <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                   <h5 className="text-white text-uppercase mb-3" style={{ ...elegantSerif, letterSpacing: '4px', textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
-                    Tenemos el honor de invitarte
+                    Tenemos el honor de invitarte a nuestra boda
                   </h5>
                   <h1 className="display-1 text-white mb-md-4" style={{ ...elegantCursive, marginTop: '20px' }}>Pablo & Lupita</h1>
                   <div className="d-inline-block border-top border-bottom border-light py-3 px-4">
-                    <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: '2px', ...elegantSerif }}>¡Nos casaremos!</h3>
+                    <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: '2px', ...elegantSerif }}>¡Nos casamos!</h3>
                   </div>
                 </div>
               </div>
@@ -99,11 +112,11 @@ function App() {
               <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                   <h5 className="text-white text-uppercase mb-3" style={{ ...elegantSerif, letterSpacing: '4px', textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
-                    Tenemos el honor de invitarte
+                    Tenemos el honor de invitarte a nuestra boda
                   </h5>
                   <h1 className="display-1 text-white mb-md-4" style={{ ...elegantCursive, marginTop: '20px' }}>Pablo & Lupita</h1>
                   <div className="d-inline-block border-top border-bottom border-light py-3 px-4">
-                    <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: '2px', ...elegantSerif }}>¡Nos casaremos!</h3>
+                    <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: '2px', ...elegantSerif }}>¡Nos casamos!</h3>
                   </div>
                 </div>
               </div>
@@ -150,21 +163,23 @@ function App() {
             <i className="far fa-heart text-dark"></i>
           </div>
           <div className="row text-center">
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6" style={{marginBottom: '3rem'}}>
               <h3 style={{ color: 'rgb(113, 74, 0)', ...elegantCursive, fontWeight: 500 }}>Padres de Pablo</h3>
-              <p className="mb-1 font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem' }}>Víctor Manuel González Barra</p>
-              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem' }}>Ana María Alvarado Vera</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Víctor Manuel González Barra</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>y</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Ana María Alvarado Vera</p>
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6" style={{marginBottom: '3rem'}}>
               <h3 style={{ color: 'rgb(113, 74, 0)', ...elegantCursive, fontWeight: 500 }}>Madre de Lupita</h3>
-              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem' }}>Auda Ofelia Flores Montenegro</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Auda Ofelia Flores Montenegro</p>
             </div>
           </div>
           <div className="row mt-2 text-center">
             <div className="col-12">
               <h3 style={{ color: 'rgb(113, 74, 0)', ...elegantCursive, fontWeight: 500 }}>Nuestros Padrinos</h3>
-              <p className="mb-1 font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem' }}>Arturo Ayala Flores</p>
-              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem' }}>Silvia Cristina Espejel Sánchez</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Arturo Ayala Flores</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>y</p>
+              <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Silvia Cristina Espejel Sánchez</p>
             </div>
           </div>
         </div>
@@ -200,9 +215,9 @@ function App() {
               <div className="text-center text-md-left ml-md-3">
                 <img className="img-fluid mb-4 w-75 shadow" src="img/julia.jpg" alt="Salón" style={{ borderRadius: '15px', height: '250px', objectFit: 'cover' }} />
                 <h4 className="mb-3" style={{ color: '#1B3058', fontWeight: '700', ...elegantSerif }}>La Fiesta</h4>
-                <p className="mb-1" style={elegantSerif}>Rancho "Santa Julia"</p>
-                <p className="mb-0" style={elegantSerif}><strong>Después de la Eucaristía</strong></p>
-                <a href="https://maps.app.goo.gl/PBWn4oAraUwkA8Q19" target="_blank" rel="noreferrer" className="btn btn-outline-primary mt-2" style={{ borderColor: 'rgb(113 74 0)', color: 'rgb(113 74 0)', ...elegantSerif }}>Ver ubicación</a>
+                <p className="mb-1" style={elegantSerif}>Salón jardín "Los Olimpos"</p>
+                <p className="mb-0" style={elegantSerif}><strong>Recepción a partir de las 7pm después de la Eucaristía</strong></p>
+                <a href="https://maps.app.goo.gl/8YehkMzrqEeYV6dM8" target="_blank" rel="noreferrer" className="btn btn-outline-primary mt-2" style={{ borderColor: 'rgb(113 74 0)', color: 'rgb(113 74 0)', ...elegantSerif }}>Ver ubicación</a>
               </div>
             </div>
           </div>

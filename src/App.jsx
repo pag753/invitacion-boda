@@ -163,13 +163,13 @@ function App() {
             <i className="far fa-heart text-dark"></i>
           </div>
           <div className="row text-center">
-            <div className="col-md-6" style={{marginBottom: '3rem'}}>
+            <div className="col-md-6" style={{ marginBottom: '3rem' }}>
               <h3 style={{ color: 'rgb(113, 74, 0)', ...elegantCursive, fontWeight: 500 }}>Padres de Pablo</h3>
               <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Víctor Manuel González Barra</p>
               <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>y</p>
               <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Ana María Alvarado Vera</p>
             </div>
-            <div className="col-md-6" style={{marginBottom: '3rem'}}>
+            <div className="col-md-6" style={{ marginBottom: '3rem' }}>
               <h3 style={{ color: 'rgb(113, 74, 0)', ...elegantCursive, fontWeight: 500 }}>Madre de Lupita</h3>
               <p className="font-weight-bold" style={{ ...elegantSerif, fontSize: '1.5rem', marginBottom: '0px' }}>Auda Ofelia Flores Montenegro</p>
             </div>
@@ -236,7 +236,10 @@ function App() {
               <p className="mb-4" style={{ ...elegantSerif, fontSize: '1.5rem' }}>«Su compañía es lo más importante para nosotros. Si desean tener un detalle adicional, pueden llevar un presente o ayudarnos a cumplir nuestro sueño de amueblar nuestro hogar y disfrutar de nuestro primer viaje como esposos.»</p>
               <div className="bg-light p-4 shadow-sm" style={{ borderRadius: '15px', border: '2px solid rgb(113 74 0)' }}>
                 <p className="text-uppercase mb-1" style={{ fontSize: '1.5rem', color: '#1B3058', ...elegantSerif }}>Clabe Interbancaria</p>
-                <h3 className="font-weight-bold mb-2" style={{ color: 'rgb(113 74 0)', ...elegantSerif, fontSize: '1.9rem' }}>127180001213912334</h3>
+                <h3 className="font-weight-bold mb-1" style={{ color: 'rgb(113 74 0)', ...elegantSerif, fontSize: '1.9rem' }}>127180001213912334</h3>
+                <p className="mb-1" style={{ ...elegantSerif, fontSize: '1.2rem', color: '#1B3058' }}>
+                  <strong>Titular:</strong> Pablo de Jesús González Alvarado
+                </p>
                 <p className="mb-0 text-muted" style={elegantSerif}><strong style={{ color: '#1B3058' }}>Banco Azteca</strong></p>
               </div>
             </div>

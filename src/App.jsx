@@ -255,7 +255,7 @@ function App() {
             <i className="far fa-heart text-dark"></i>
           </div>
           <p className="mb-4 mt-3" style={{ ...elegantSerif, fontSize: '1.5rem' }}>
-            Por favor, confírmanos tu asistencia antes del <strong>15 de Abril de 2026</strong>.
+            Por favor, confírmanos tu asistencia antes del <strong>30 de Abril de 2026</strong>.
           </p>
           <div className="d-flex justify-content-center flex-column flex-md-row">
             <a href="https://wa.me/5215548663698?text=¡Hola! Confirmo mi asistencia a celebrar con ustedes su unión matrimonial." className="btn font-weight-bold py-3 px-5 m-2 shadow" style={{ backgroundColor: '#1B3058', color: 'white', borderRadius: '30px', ...elegantSerif }}>
